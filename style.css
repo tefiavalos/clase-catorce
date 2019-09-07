@@ -1,0 +1,50 @@
+body{
+    margin:0;
+}
+
+main{
+    display:flex;
+}
+
+section{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+}
+
+section img{
+    width: 100%;
+    height: auto;
+}
+
+aside img{
+    width: 100%;
+    height: auto;
+}
+
+article{
+    margin: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+div{
+    display:block;
+}
+
+h1, h4{
+    text-align: center
+}
+
+@media (max-width:600px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section, aside{
+        width: 100%;
+
+    }
+}
