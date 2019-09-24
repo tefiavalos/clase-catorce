@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap');
+
 body{
     margin:0;
+    font-family: 'Raleway', sans-serif;
 }
 
 main{
@@ -35,6 +38,60 @@ div{
 
 h1, h4{
     text-align: center
+}
+
+.popular-posts{
+    display:flex;
+    flex-direction: column;
+}
+
+.popular-posts img{
+    width: 20%;
+    height: 20%;
+    margin:0;
+}
+
+.cacapis{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3%;
+
+}
+
+.container-article{
+    display:flex;
+    flex-direction: row;
+    padding: 3%;
+    border: 1px solid #EEEFF2;
+    
+}
+
+.container-article :hover{
+    background-color: #EEEFF2;
+    width: 100%;
+    transition: 2s;
+    
+}
+
+.pop{
+    margin:0;
+}
+.container-tags{
+    display:flex;
+}
+
+.tag{
+    height: 8%;
+    background-color: #EEEFF2;
+    border: 1px solid white
+}
+
+.tag-black{
+    height: 8%;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
 }
 
 @media (max-width:600px){
